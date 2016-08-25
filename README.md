@@ -1,10 +1,10 @@
-emoji-translate
+Emoji World English Bible 
 =====
 
-```
-let EmojiTranslate   = require('emoji-translate'),
-    emojiTranslator = new EmojiTranslate()
+Download emoji_bible.txt to see the emojified Bible.
 
-console.log(emojiTranslator.translate('the house is on fire!'))
-// the 🚪 is on 📛
-```
+Original text file from https://raw.githubusercontent.com/getbible/Bibles/master/English__World_English_Bible__web__LTR.txt.
+
+NPM modules EmojiLib, Inflection, and Pos used for translation.
+
+I also manually modified the Emoji JSON file a bit.
